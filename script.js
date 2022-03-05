@@ -25,7 +25,7 @@ function makeBoth(rowNum, cellNum) {
 
     
 
- 
+
 
 clearBtn.addEventListener('click', function(){
   
@@ -71,4 +71,16 @@ function multi() {
      } 
     }
     
+    function empty() {
+
+        container.addEventListener('click', colors, false)
+        function colors(event) {
+          event.target.style.backgroundColor = 'white'
+          console.log(event.target)
+        }
+        
+        
+        }
+        
+        
     

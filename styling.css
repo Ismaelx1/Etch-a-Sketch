@@ -1,3 +1,7 @@
+body {
+  background-color: #7d827e;
+  margin: 20px;
+}
 .cell {
   
     min-width: fit-content;
@@ -31,18 +35,55 @@
     
  display: flex;
  flex-direction: column;
-   border: 1px solid gray;
+   border: 1px solid #69bfdb;
     min-width: 500px;
     min-height: 500px;
     max-width: 500px;
     max-height: 500px;
 flex-shrink: 1;
-
+box-sizing: border-box;
 position: relative;
-margin-left: 100px;
+margin-left: 170px;
+margin-top: 30px;
     
 }
-.cell:hover {
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 500px;
+  position: absolute;
+  justify-content: space-around;
+}
+
+
+button {
+  height: 40px;
+  color: #69bfdb;
+  background-color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 8px;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  font-family: Fredoka, sans-serif;
+
+
+}
+h1 {
+
+  color: #69bfdb;
+  font-size: 40px;
+  font-family: Fredoka, sans-serif;
+  font-weight: bolder;
   
  
-} 
+  position: relative;
+  margin-left: 280px;
+
+ 
+}
+button:hover {
+  background-color: white;
+}
