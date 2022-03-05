@@ -1,4 +1,4 @@
-
+// Target container and rows firstchild to ingore then only work on cells
 
 let container = document.getElementById("container");
 let rows = document.getElementsByClassName("gridRow");
@@ -67,6 +67,10 @@ function multi() {
         let random3 = Math.floor(Math.random() * 256)
 
       event.target.style.backgroundColor = `rgb(${random1}, ${random2}, ${random3})`
+
+      if (event.target === firstthing) {
+          console.log("Right")
+      }
    
      } 
     }
@@ -82,5 +86,7 @@ function multi() {
         
         }
         
+
+        let firstthing = document.querySelector("#container > div:nth-child(1) > div:nth-child(1)")
         
     
