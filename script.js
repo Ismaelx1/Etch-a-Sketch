@@ -110,5 +110,5 @@ function multi() {
 
   
   
-        console.log(thingy)
+      
     
