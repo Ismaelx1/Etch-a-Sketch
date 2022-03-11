@@ -1,2 +1,3 @@
 # Etch-a-Sketch
-Etch a Sketch Project
+See it live => https://ismaelx1.github.io/Etch-a-Sketch/
+
